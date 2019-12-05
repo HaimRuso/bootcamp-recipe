@@ -1,0 +1,39 @@
+body{
+    background-color: lightblue;
+}
+.res{
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+    padding: 20px;
+    grid-column-gap: 1em;
+    grid-row-gap:1em;
+	  justify-self: center;
+    background-color: lightblue;
+    align-items: center;
+}
+.item {
+    display: grid;
+    grid-area: auto;
+    align-items: stretch;
+    background-color:lightcoral;
+    /* border: 1px solid #000; */
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    align-items:center;
+    box-shadow: 1px 1px 2px #fff inset,
+    -1px -1px 2px #fff inset;
+    border-radius: 3px/6px;         
+
+  }
+  img{
+    max-width: 50%;
+    padding-left: 80px;
+    
+  }
+
+  ul{
+      font-size: 45%;
+  }
